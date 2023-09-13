@@ -116,7 +116,7 @@ nav a:hover{
         padding: 0.1rem 0 0.4rem;
     }
     nav a{
-        font-size: 1.2rem;
+        font-size: 1rem;
         padding: 0 0.8rem 0;
         border-radius: 0.8rem;
         text-shadow: 2px 1px 4px #fff4;
@@ -143,7 +143,7 @@ nav a:hover{
 
 @media (max-width: 370px){
     nav a{
-        font-size: 1.3rem;
+        font-size: 1.2rem;
     }
     .slogan-text h1{
         font-size: 2.8rem;
@@ -230,7 +230,7 @@ nav a:hover{
         gap: 2rem;
     }
     .header-menu nav ul li a{
-        font-size: 1.6rem;
+        font-size: 2rem;
     }
     .menu-BottomBorder{
         height: .2rem;
@@ -241,7 +241,6 @@ nav a:hover{
     }
     .slogan-text{
         max-width: 40rem;
-        margin: 0 8rem 0 0;
     }
     .slogan-text h1{
         font-size: 5.2rem;
@@ -265,11 +264,11 @@ nav a:hover{
 }
 
 @media (min-width: 1440px){
-    header{
+    header{ 
         padding: 2rem 3.6rem 0;
     }
     .menu-logo{
-        width: 14rem;
+        width: 15.2rem;
         margin: 0;
     }
     .menu-login, .menu-BuyCar{
@@ -279,7 +278,7 @@ nav a:hover{
         gap: 2.8rem;
     }
     .header-menu nav ul li a{
-        font-size: 1.6rem;
+        font-size: 2.4rem;
         text-shadow: 4px 2px 7px #fff3;
     }
     .header-menu{
@@ -314,23 +313,23 @@ nav a:hover{
     } 
 }
 
-@media (min-width: 2048px){
+@media (min-width: 2048px){ 
 
     header{
         padding: 2.8rem 4rem 0;
     }
     .menu-logo{
-        width: 14.4rem;
+        width: 16.4rem;
         margin: 0;
     }
     .menu-login, .menu-BuyCar{
-        width: 3.6rem;
+        width: 4rem;
     }
     .header-menu nav ul{
         gap: 3.6rem;
     }
     .header-menu nav ul li a{
-        font-size: 2rem;
+        font-size: 2.8rem;
         text-shadow: 4px 2px 7px #fff3;
     }
     .header-menu{
@@ -344,8 +343,8 @@ nav a:hover{
         max-width: 54rem;
     }
     .slogan-text h1{
-        font-size: 6.8rem;
-        height: 7.2rem;
+        font-size: 8.4rem;
+        height: 8.4rem;
         letter-spacing: 2.4rem;
         text-shadow: 6px 6px 4px #000;
     }
@@ -353,57 +352,7 @@ nav a:hover{
         font-size: 2.8rem;
     }
     .slogan-text button{
-        width: 14rem;
-        height: 4rem;
-        font-size: 2.4rem;
-        margin: 1.6rem 0 0;
-        text-shadow: 4px 2px 4px #0003;
-        box-shadow: 4px 4px 6px #fff2;
-    }
-    .slogan-img img{
-        width: 32rem;
-    } 
-}
-
-@media (min-width: 2560px){
-    header{
-        padding: 3.6rem 5.6rem 0;
-    }
-    .menu-logo{
-        width: 20rem;
-    }
-    .menu-login, .menu-BuyCar{
-        width: 4.4rem;
-    }
-    .header-menu nav ul{
-        gap: 4rem;
-    }
-    .header-menu nav ul li a{
-        font-size: 2.4rem;
-        text-shadow: 4px 2px 7px #fff3;
-    }
-    .header-menu{
-        margin: 2.8rem 0 .4rem;
-    }
-    .header-slogan{
-        margin-top: 2.4rem;
-        padding: 0 12rem 0;
-    }
-    .slogan-text{
-        max-width: 56rem;
-    }
-    .slogan-text h1{
-        font-size: 8.4rem;
-        height: 8.6rem;
-        letter-spacing: 2.8rem;
-        text-shadow: 6px 6px 4px #000;
-    }
-    .slogan-text p{
-        font-size: 3.6rem;
-        line-height: 4rem;
-    }
-    .slogan-text button{
-        width: 16.4rem;
+        width: 15.6rem;
         height: 4.4rem;
         font-size: 2.8rem;
         margin: 1.6rem 0 0;
@@ -412,5 +361,57 @@ nav a:hover{
     }
     .slogan-img img{
         width: 36rem;
+    } 
+}
+
+@media (min-width: 2560px){
+    header{
+        padding: 4rem 7.6rem 0;
+    }
+    .menu-logo{
+        width: 22rem;
+    }
+    .menu-login, .menu-BuyCar{
+        width: 5.2rem;
+    }
+    .header-menu nav ul{
+        gap: 4rem;
+    }
+    .header-menu nav ul li a{
+        font-size: 2.8rem;
+        text-shadow: 4px 2px 7px #fff3;
+    }
+    .header-menu{
+        margin: 2.8rem 0 .4rem;
+    }
+    .header-slogan{
+        margin-top: 2.9rem;
+        padding: 0 12rem 0;
+    }
+    .slogan-text{
+        max-width: 57.2rem;
+    }
+    .slogan-text h1{
+        font-size: 9.6rem;
+        height: 9.6rem;
+        letter-spacing: 2.8rem;
+        text-shadow: 6px 6px 4px #000;
+    }
+    .slogan-text p{
+        margin-top: .4rem;
+        font-size: 3.6rem;
+        line-height: 4rem;
+    }
+    .slogan-text button{
+        width: 23.6rem;
+        height: 6rem;
+        font-size: 3.2rem;
+        text-shadow: 4px 2px 4px #0003;
+        box-shadow: 4px 4px 6px #fff2;
+        border-radius: 2.4rem;
+        margin: 1.6rem 0 0;
+    }
+    .slogan-img img{
+        width: 44.4rem;
     } 
 }

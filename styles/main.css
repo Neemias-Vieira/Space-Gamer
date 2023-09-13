@@ -54,7 +54,6 @@ main{
     -webkit-filter: brightness(90%);
 }
 .card1-img img:hover{
-
     transform: scale(1.01);
     transition: 100ms linear;
 }
@@ -181,13 +180,6 @@ main{
     .card1-img{
         width: 12rem;
         height: 12rem;
-    }
-    .card1-img:hover{
-        -webkit-filter: brightness(110%);
-    }
-    .card1-img img{
-        width: 90%;
-        -webkit-filter: brightness(90%);
     }
     .card1-circle-promo{
         display: none;
