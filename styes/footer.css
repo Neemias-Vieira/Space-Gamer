@@ -1,0 +1,44 @@
+footer{
+    width: 100%;
+    padding: 0rem 1.6rem 0;
+    background: linear-gradient(165deg, #151515, #202020);
+    text-align: center;
+    padding: 1.2rem;
+}
+.container article{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 5.6rem;
+}
+footer h3{
+    font-size: 1.8rem;
+    margin-top: 1.6rem;
+    text-shadow: 1px 1px 1px #fff2;
+}
+.newsletter{
+    padding: 0.4rem;
+}
+.newsletter h3{
+    margin-top: 2.4rem;
+    font-size: 2.4rem;
+}
+.newsletter p{
+    margin-top: .8rem;
+    font-size: 1.4rem;
+}
+.newsletter form{
+    margin-top: 2.4rem;
+    font-size: 1.4rem;
+    width: 100%;
+    display: flex;
+    gap: .8rem;
+}
+.icon{
+    width: 2.4rem;
+    align-items: center;
+}
+iframe{
+    max-width: 100%;
+}

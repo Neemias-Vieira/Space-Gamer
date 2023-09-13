@@ -1,0 +1,79 @@
+/*
+COLOCAR RESPONSIVIDADE PARA CELULARES COM LARGURA MENOR QUE 380px.
+NOS CARDS (AUMENTAR || DIMINUIR LARGURA PARA QUE O USUÁRIO VEJA QUE TEM QUE DESLIZAR) 
+MENOR QUE 330px AJEITAR MENU, E TEXTO DO SLOGAN
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+UL{
+    list-style: none;
+}
+body, button, input, select,textarea{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+}
+body{
+    background: linear-gradient(60deg, #050505 5%, #151515,#050505 90%);
+}
+a{
+    text-decoration: none;
+}
+button{
+    background: none;
+    border: none;
+}
+.border-transference{
+    height: 1px;
+    background-color: #fff2;
+}
+.red{
+    color: red;
+}
+.white{
+    color: #fff ;
+}
+.yellow{
+    color: #f8e209;
+}
+.green{
+    color: #00a202;
+}
+.size10px{
+    font-size: 1rem; 
+    font-weight: 400;
+}
+.size12px{
+    font-size: 1.2rem; 
+    font-weight: 400;
+}
+.size13px{
+    font-size: 1.3rem; 
+    font-weight: 400;
+}
+.center{
+    justify-content: center;
+}
+
+.bYellow-cBlack{
+    background-color: #f8e209;
+    color: #101010;
+    text-shadow: none;
+}
+.bPurpleBlue-cWhite{
+    background-color: #3d0af7aa;
+    color: #fff;
+    text-shadow: none;
+}
+.bRed-cWhite{
+    background: red;
+    color: white;
+}

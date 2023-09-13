@@ -1,0 +1,331 @@
+main{
+    width: 100%;
+    padding: 0rem 1.2rem 0;
+    background: transparent;
+}
+.section-products{
+    margin-bottom: 3.2rem;
+}
+.product1-title{
+    width: 90%;
+    margin: 2.8rem 0 1rem 0;
+    padding: 0 1.6rem 0;
+    text-align: left;
+    font-weight: 800;
+    color: #f8e209;
+    color: white;
+}
+.product1-title h1{
+    font-size: 2rem;
+}
+.products1-CardArea{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    overflow-y: hidden;
+    scrollbar-width: none;
+    scroll-snap-type: x mandatory;
+}
+/* desaparecer barra de rolagem horizontal */
+.products1-CardArea::-webkit-scrollbar{
+    display: none;
+}
+.card1{
+    background-color: #303030;
+    height: 51rem;
+    width: 15rem;
+    margin: 0 0.8rem 0;
+    scroll-snap-align: center;
+}
+.card1-img{
+    background-color: #e5e5e5;
+    width: 15rem;
+    height: 16.3rem;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card1-img:hover{
+    -webkit-filter: brightness(110%);
+}
+.card1-img img{
+    width: 90%;
+    -webkit-filter: brightness(90%);
+}
+.card1-img img:hover{
+
+    transform: scale(1.01);
+    transition: 100ms linear;
+}
+.card1-circle-promo{
+    position: absolute;
+    z-index: 1;
+    top: 0.1rem;
+    left: 0.1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: linear-gradient(165deg, #FFE924 30%, #f8e209
+    );
+    border: 1px solid #303030;
+    border-radius: 50%;
+    font-size: 1.2rem;
+    font-weight: bolder;
+    line-height: 1.2rem;
+    color: black;
+    animation: pulsetwo 1s infinite;
+}
+.card1-info{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0.4rem 0 0.4rem;
+    padding: 0 0.4rem 0;
+    max-width: 95%;
+}
+.card1-info span{
+    margin: 0.2rem;
+    padding: 0.2rem 0rem;
+    font-size: .7rem;
+    font-weight: 800;
+    white-space: nowrap;
+    border-radius: 0.3rem;
+}
+.card1-text{
+    display: block;
+    max-width: 90%;
+    padding: 0 0 0 0.4rem; 
+}
+.card1-text h2{
+    font-size: 1.6rem;
+    color: white;
+    font-weight: 400;
+    text-align: left;
+    line-height: 2rem;
+    text-overflow: ellipsis;
+}
+.card1-text-details{
+    padding: 0 0 1rem;
+}
+.card1-text-details1-dad{
+    display: flex;
+    align-items: center;
+}
+.card1-text-details1-sun{
+    flex: 1;
+}
+.details1-price-before{
+    display: flex;
+    align-items: center;
+    height: 2rem;
+    gap: 0 0.4rem 0;
+}
+.priceBefore{
+    font-size: 2rem; 
+    font-weight: 600;
+    color: #00a202;
+}
+.card-ThickLine{
+    margin: 0.8rem 0 0.8rem;
+    height: 0.2rem;
+    width: 3rem;
+    background: #f8e209 ;
+}
+.card1-text-details2-dad{
+    display: flex;
+    align-items: center;
+}
+.card1-text-details2-sun{
+    flex: 1;
+}
+.details2-pricex{
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+.ver-mais-dad{
+    min-width: 18rem;
+    max-width: 32rem;
+    height: 47rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    scroll-snap-align: center;
+}
+.ver-mais-sun{
+    color: #f8e209;
+    text-align: center;
+    font-size: 2.6rem;
+    font-weight: 700;
+    letter-spacing: 0.2rem;
+	animation: pulseone 1s infinite;
+}
+.ver-mais-div img{
+    width: 8rem;
+}
+
+@media (max-width: 375px){
+
+    .product1-title{
+        margin: 1.6rem 0 1rem 0;
+        padding: 0 .4rem 0;
+    }
+    .product1-title h1{
+        font-size: 1.6rem;
+    }
+    .card1{
+        height: 45rem;
+        width: 12rem;
+    }
+    .card1-img{
+        width: 12rem;
+        height: 12rem;
+    }
+    .card1-img:hover{
+        -webkit-filter: brightness(110%);
+    }
+    .card1-img img{
+        width: 90%;
+        -webkit-filter: brightness(90%);
+    }
+    .card1-circle-promo{
+        display: none;
+    }
+    .card1-info{
+        margin: .4rem 0 .2rem;
+    }
+    .card1-info span{
+        font-size: .6rem;
+    }
+    .card1-text{
+        max-width: 95%;
+    }
+    .card1-text h2{
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    .size12px{
+        font-size: 1rem;
+    }
+    .details1-price-before{
+        height: 2rem;
+        gap: 0 0.4rem 0;
+    }
+    .priceBefore{
+        font-size: 2rem;
+    }
+    .card-ThickLine{
+        margin: 0.4rem 0 0.4rem;
+        height: 0.1rem;
+    }
+    .card1-text-details2-dad{
+        display: flex;
+        align-items: center;
+    }
+    .details2-pricex{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+}
+@media (min-width: 425px){
+    
+    .product1-title h1{
+        font-size: 1.6rem;
+    }
+}
+
+@media (min-width: 768px){
+
+    .product1-title h1{
+        font-size: 1.6rem;
+    }
+    .card1{
+        height: 46rem;
+        width: 14.4rem;
+    }
+    .card1-img{
+        width: 14.4rem;
+        height: 14.4rem;
+    }
+    .card1-circle-promo{
+        display: none;
+    }
+    .card1-info{
+        margin: .4rem 0 .2rem;
+    }
+    .card1-text{
+        max-width: 95%;
+    }
+    .card1-text h2{
+        font-size: 1.4rem;
+        line-height: 1.6rem;
+    }
+    .size12px{
+        font-size: 1rem;
+    }
+    .details1-price-before{
+        height: 2rem;
+        gap: 0 0.4rem 0;
+    }
+    .priceBefore{
+        font-size: 2rem;
+    }
+    .card-ThickLine{
+        margin: 0.4rem 0 0.4rem;
+        height: 0.1rem;
+    }
+    .card1-text-details2-dad{
+        display: flex;
+        align-items: center;
+    }
+    .details2-pricex{
+        font-size: 1.7rem;
+        font-weight: 500;
+    }
+}
+
+@media (min-width: 1024px){
+    
+}
+
+@media (min-width: 1440px){
+     
+}
+
+@media (min-width: 2048px){
+
+}
+
+@media (min-width: 2560px){
+   
+}
+
+@keyframes pulseone{
+    0%{
+        transform: scale(1);
+    }
+
+    50% {
+		transform: scale(1.02);
+        -webkit-filter: brightness(150%);
+	}
+
+	100% {
+		transform: scale(1);
+	}
+}
+
+@keyframes pulsetwo{
+    0%{
+        transform: scale(0.97);
+    }
+
+    50% {
+		transform: scale(1);
+	}
+
+	100% {
+		transform: scale(0.97); 
+	}
+}
