@@ -32,7 +32,7 @@ main{
 }
 .card1{
     background-color: #303030;
-    height: 51rem;
+    height: 52rem;
     width: 15rem;
     margin: 0 0.8rem 0;
     scroll-snap-align: center;
@@ -81,16 +81,18 @@ main{
     display: flex;
     flex-wrap: wrap;
     margin: 0.4rem 0 0.4rem;
-    padding: 0 0.4rem 0;
-    max-width: 95%;
+    padding: 0 0 0.4rem;
+    max-width: 90%;
 }
 .card1-info span{
-    margin: 0.2rem;
-    padding: 0.2rem 0rem;
-    font-size: .7rem;
-    font-weight: 800;
-    white-space: nowrap;
+    margin: .2rem .4rem .2rem;
     border-radius: 0.3rem;
+}
+.card1-info span p{
+    padding: 0.2rem .2rem;
+    font-size: 1rem;
+    font-weight: 600;
+    white-space: nowrap;
 }
 .card1-text{
     display: block;
@@ -187,8 +189,8 @@ main{
     .card1-info{
         margin: .4rem 0 .2rem;
     }
-    .card1-info span{
-        font-size: .6rem;
+    .card1-info span p{
+        font-size: .8rem;
     }
     .card1-text{
         max-width: 95%;
@@ -233,12 +235,12 @@ main{
         font-size: 1.6rem;
     }
     .card1{
-        height: 46rem;
-        width: 14.4rem;
+        height: 46.4rem;
+        width: 16rem;
     }
     .card1-img{
-        width: 14.4rem;
-        height: 14.4rem;
+        width: 16rem;
+        height: 16rem;
     }
     .card1-circle-promo{
         display: none;
@@ -250,8 +252,8 @@ main{
         max-width: 95%;
     }
     .card1-text h2{
-        font-size: 1.4rem;
-        line-height: 1.6rem;
+        font-size: 1.6rem;
+        line-height: 2rem;
     }
     .size12px{
         font-size: 1rem;
@@ -278,7 +280,14 @@ main{
 }
 
 @media (min-width: 1024px){
-    
+    .card1{
+        height: 49.2rem;
+        width: 18rem;
+    } 
+    .card1-img{
+        width: 18rem;
+        height: auto;
+    }
 }
 
 @media (min-width: 1440px){
