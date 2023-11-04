@@ -213,10 +213,10 @@ nav a:hover{
         margin: 0 0 1.6rem;
     }
     .menu-logo{
-        width: 12.8rem;
+        width: 11.6rem;
     }
     .menu-login, .menu-BuyCar{
-        width: 2.8rem;
+        width: 1.6rem;
     }
     .menu-login:hover,
     .menu-BuyCar:hover{
@@ -224,13 +224,13 @@ nav a:hover{
         scale: 1.1;
     }
     .header-menu{
-        margin-top: 1.6rem;
+        margin-top: 1rem;
     }
     .header-menu nav ul{
-        gap: 2rem;
+        gap: 1.6rem;
     }
     .header-menu nav ul li a{
-        font-size: 2rem;
+        font-size: 1.6rem;
     }
     .menu-BottomBorder{
         height: .2rem;
@@ -268,18 +268,18 @@ nav a:hover{
         padding: 2rem 3.6rem 0;
     }
     .menu-logo{
-        width: 15.2rem;
+        width: 14.4rem;
         margin: 0;
     }
     .menu-login, .menu-BuyCar{
-        width: 3.2rem;
+        width: 2.4rem;
     }
     .header-menu nav ul{
-        gap: 2.8rem;
+        gap: 2rem;
     }
     .header-menu nav ul li a{
-        font-size: 2.4rem;
-        text-shadow: 4px 2px 7px #fff3;
+        font-size: 1.6rem;
+        text-shadow: 4px 2px 7px #fff2;
     }
     .header-menu{
         margin-top: 1.6rem;
